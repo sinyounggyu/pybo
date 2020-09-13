@@ -6,7 +6,7 @@ from django.shortcuts import render, get_object_or_404
 
 from ..models import Question
 
-logger = logging.getLogger(__name__)
+logger = logging.getLogger('pybo')
 
 
 def index(request):
